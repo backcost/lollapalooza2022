@@ -1,0 +1,14 @@
+.menu__link {
+    color: var(--white);
+    margin: 30px;
+    text-decoration: none;
+}
+
+.menu__link--active {
+    color: rgba(0,175,154,0.8);
+    font-weight: bold;
+}
+
+.menu__link:hover {
+    text-decoration: underline;
+}
