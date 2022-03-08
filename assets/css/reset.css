@@ -1,6 +1,7 @@
 body {
     font-family: Roboto, sans-serif;
-    background: linear-gradient(33deg, rgba(0,175,154,1) 0%, rgba(255,68,56,0.95) 100%);
+    background: var(--background-gradient);
+    min-height: 100vh;
 }
 
 h1, h2, h3, h4, h5, h6 {

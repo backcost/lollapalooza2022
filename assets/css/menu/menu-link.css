@@ -5,6 +5,10 @@
     font-size: 1.15rem;
 }
 
+.menu__link--black {
+    color: var(--mine-shaft);
+}
+
 .menu__link--active {
     color: var(--mine-shaft);
     font-weight: bold;
