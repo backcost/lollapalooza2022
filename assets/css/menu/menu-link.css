@@ -6,7 +6,7 @@
 }
 
 .menu__link--active {
-    color: rgba(0,175,154,0.8);
+    color: var(--mine-shaft);
     font-weight: bold;
 }
 
