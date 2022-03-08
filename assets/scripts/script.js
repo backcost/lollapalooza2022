@@ -27,13 +27,13 @@ const schedulePage = () => {
     let el = document.getElementById("main")
     el.innerHTML  = 
     `<button class="day">
-        <p class="day__text">Sexta - 25/03</p>
+        <p class="day__text" onclick="scheduleDay('sexta')">Sexta - 25/03</p>
     </button>
     <button class="day">
-        <p class="day__text">Sábado - 26/03</p>
+        <p class="day__text" onclick="scheduleDay('sabado')">Sábado - 26/03</p>
     </button>
     <button class="day">
-        <p class="day__text">Domingo - 27/03</p>
+        <p class="day__text" onclick="scheduleDay('domingo')">Domingo - 27/03</p>
     </button>`;
 };
 
@@ -59,3 +59,8 @@ const lyricsPage = () => {
         <p class="day__text">Domingo - 27/03</p>
     </button>`;
 };
+
+const scheduleDay = (day) => {
+    document.getElementById("main").innerHTML  = 
+    `<img alt="Horários do dia" class="lineup" src="./assets/img/${day}.webp"/>`;
+}
