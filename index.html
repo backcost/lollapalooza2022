@@ -17,20 +17,22 @@
         <link rel="stylesheet" href="assets/css/menu/menu-list.css">
         <link rel="stylesheet" href="assets/css/menu/menu-item.css">
         <link rel="stylesheet" href="assets/css/menu/menu-link.css">
+        <link rel="stylesheet" href="assets/css/map.css">
     </head>
     <body>
         <header class="header">
             <img alt="LollaPalooza Brasil" class="logo" src="./assets/img/logo.svg"/>
             <nav class="menu">
                 <ul class="menu__list">
-                    <li class="menu__item"><a class="menu__link menu__link--active" href="#">Line Up</a></li>
+                    <li class="menu__item"><a class="menu__link menu__link--active" href="index.html">Line Up</a></li>
                     <li class="menu__item"><a class="menu__link" href="#">Horários</a></li>
-                    <li class="menu__item"><a class="menu__link" href="#">Mapa</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#" onclick="setTimeout(mapPage, 400)">Mapa</a></li>
                 </ul>
             </nav>
         </header>
-        <main class="main">
+        <main class="main" id="main">
             <img alt="Line-Up" class="lineup" src="./assets/img/lineup.png"/>
         </main>
+        <script src="script.js"></script>
     </body>
 </html>
